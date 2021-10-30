@@ -129,7 +129,7 @@
 }
 
 .fitur-img{
-    background-image: url(tambahan/img/foto2.JPG);
+    background-image: url(img/foto2.JPG);
     background-size: cover;
     transition: all .5s;
     cursor: pointer;
