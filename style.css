@@ -1,0 +1,153 @@
+.container{
+    width: 1024px;
+    margin: auto;
+}
+
+.nav-top{
+    position: relative;
+    height: 46px;
+    font-family: "Montserrat", sans-serif;
+    z-index: 22;
+}
+
+.nav-bg{
+    width: 100%;
+    height: 46px;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.nav-item{
+    width: 1100px;
+    margin:auto;
+}
+
+.menu{
+    padding-right: 2%;
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+    z-index: 10;
+    height: 46px;
+    overflow: hidden;
+}
+
+.pull-left{
+    float: left;
+}
+
+.menu-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #5b5b5b;
+    text-align: left;
+    letter-spacing: -0.02em;
+    margin: 15px 0 0 0;
+    display: inline-block;
+    min-width: 45px;
+    cursor: pointer
+}
+
+.navigation{
+    margin-top: 16px;
+    background: #cacaca;
+    background: -moz-linear-gradient(right, #21409a 50%, #007cbd 100%);
+    background: -webkit-linear-gradient(right, #21409a 50%, #007cbd 100%);
+    background: linear-gradient(to right, #21409a 50%, #007cbd 100%);
+    border-radius: 4px;
+}
+
+.navigation ul{
+    width: 100%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;   
+}
+
+.navigation ul,li{
+    display: inline-block;
+}
+
+.navigation li{
+    cursor: pointer;
+    margin-right: 24px;
+    height: 40px;
+}
+
+.navigation li, a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px;
+    padding-left: 6px;
+}
+
+.navigation li:hover a{
+    color: chocolate;
+}
+
+.content-item{
+    margin-top: 55px;
+    width: 20%;
+    float: left;
+}
+
+.content-text a{
+    margin-left: -6px;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.content-text:hover a{
+    color: blue;
+}
+
+.content-left{
+    float: left;
+    width: 60%;   
+}
+
+.content-right{
+    float: left;
+    width: 40%;
+}
+
+.fitur{
+    border-radius: 10px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+.fitur-img-wrapper{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.fitur-img{
+    background-image: url(tambahan/img/foto2.JPG);
+    background-size: cover;
+    transition: all .5s;
+    cursor: pointer;
+    height: 100%;
+}
+
+.fitur-img:hover, .fitur-img:focus{
+    transform: scale(1.2);
+}
+
+.fitur-text{
+    height: 80px;
+    background-color: blue;
+}
+
+
+
+.fitur-title-wrapper{
+    position: absolute;
+    bottom: 0;
+}
